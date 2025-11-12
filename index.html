@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Flashcards English</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+
+    <h1>Вивчай англійські слова</h1>
+
+    <!-- Картка -->
+    <div id="flashcard" class="flashcard">
+      <div class="front">Натисни, щоб почати</div>
+      <div class="back"></div>
+    </div>
+
+    <!-- Кнопки -->
+    <div class="buttons">
+      <button id="know-btn">Я знаю</button>
+      <button id="repeat-btn">Повторити</button>
+    </div>
+
+    <!-- Прогрес -->
+    <div class="progress-container">
+      <div class="progress-bar" id="progress-bar"></div>
+    </div>
+    <p class="progress-text" id="progress-text">0 / 0</p>
+
+    <button id="restart-btn" style="display:none;">Почати знову</button>
+  </div>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
